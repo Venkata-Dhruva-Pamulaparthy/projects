@@ -1,0 +1,6 @@
+An implementation of a simple feedback linearization based controller for trajectory tracking of a two link arm . 
+Steps to run
+1. store the files in your python path.
+2. run main
+3. observe graphs showing trajectory tracking and tracking errors. 
+4. This project is very simple and the code is self-explainatory
