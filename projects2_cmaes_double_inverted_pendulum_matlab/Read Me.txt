@@ -1,0 +1,12 @@
+This is a project that shows the evolution of a controller for the swing up of a coupled parallel double inverted pendulum, a highly nonlinear system. 
+The evolution strategy used is called the Covariance Matrix Adaption Evolution Strategy (CMAES).
+The design of the above controller by traditional methods is not apparent.
+It is assumed that a much simpler stability controller catches the pendulums after swing up and keeps them upright (Not shown here since it is not part of the project) 
+
+To run the project you need MATLAB.
+
+Steps:
+1. Open the files in matlab and add to path.
+2. Run the file named cmaes_pd. Watch the controller evolve as the performance index is minimized.
+3. Once the run is complete you will get graphs showing the stabilization of each dimension of the six-dimensional problem.   
+4.For more information and detailed theory of the concepts involved is provided in the project report (see pdf file).I could provide further clarifications during the interview.
